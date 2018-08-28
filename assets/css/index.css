@@ -1,0 +1,37 @@
+.no-a {
+    color: #000000;
+}
+.no-a:hover {
+    color: #2CA8FF;
+}
+.no-a:focus {
+    color: #2CA8FF;
+}
+.carousel-caption h5 {
+    text-shadow: 1px 1px 5px #000;
+}
+.title {
+    font-size: 3vmax;
+}
+.subtitle {
+    font-size: 2vmax;
+}
+@media screen and (max-width: 600px) {
+    .card {
+        width: 90% !important;
+    }
+}
+.navbar-toggler {
+    position: absolute;
+    right: 50px;
+    top: 16px;
+    padding: 0;
+}
+.icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #fff;
+    margin-top: 4px;
+}
